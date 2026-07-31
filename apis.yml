@@ -1,7 +1,17 @@
 aid: odyssey-ai
 name: Odyssey Ai
-description: Odyssey Ai is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Odyssey is an AI research lab building general-purpose world models — causal,
+  multimodal systems that understand and simulate physical environments, generating
+  long-form interactive video simulations from text or image prompts rather than text.
+  Its research includes Odyssey-2 (a flagship world model producing multi-minute
+  interactive simulations), Starchild-1 (a real-time multimodal world model), Agora-1
+  (a multi-agent world simulator), and PROWL-1 (a reinforcement-learning framework for
+  adversarial environment exploration). Odyssey positions world models as foundational
+  AI for robotics, gaming, healthcare, education, and 3D visual asset generation, and
+  raised a $310M Series B. The company is a portfolio company of DCVC. At the time of
+  this profile Odyssey publishes research, writing, and interactive demos but exposes
+  no public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/odyssey-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +19,53 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://odyssey.ml/favicon.ico
 tags:
 - Company
+- Artificial Intelligence
+- World Models
+- Generative AI
+- Machine Learning
+- Research
+- Simulation
+- 3D
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: Website
+  url: https://odyssey.ml/
+- type: Blog
+  url: https://odyssey.ml/writing
+- type: About
+  url: https://odyssey.ml/about
+- type: Research
+  url: https://odyssey.ml/research
+- type: Careers
+  url: https://odyssey.ml/careers
+- type: Contact
+  url: https://odyssey.ml/contact
+- type: Legal
+  url: https://odyssey.ml/legal
+- type: DomainSecurity
+  url: security/odyssey-ai-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
