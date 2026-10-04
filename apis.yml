@@ -50,7 +50,7 @@ tags:
 - Artificial Intelligence
 - World Models
 - Generative AI
-- Machine-Learning
+- Machine Learning
 - Research
 - Simulation
 - 3D
@@ -63,6 +63,7 @@ tags_raw:
 - Research
 - Simulation
 - 3D
+- Machine-Learning
 apis: []
 x-enrichment:
   date: '2026-07-20'
